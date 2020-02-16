@@ -91,8 +91,6 @@ Failure to do so is similar to not maintaining an npm module, or unpublishing a 
 
 ## Yubikey
 
-Build Form Source:
-
 - [yubico-c](https://developers.yubico.com/yubico-c/)
 - [yubikey-personalization](https://developers.yubico.com/yubikey-personalization/)
 - [Resetting a Yubikey](https://support.yubico.com/support/solutions/articles/15000006421-resetting-the-openpgp-applet-on-the-yubikey)
@@ -124,6 +122,8 @@ Show the keys on the card:
 ```
 list
 ```
+
+### General GPG Commands
 
 Export a public key:
 
