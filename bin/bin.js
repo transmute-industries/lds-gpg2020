@@ -1,11 +1,13 @@
 #!/usr/bin/env node
 const fs = require("fs");
 const path = require("path");
+
 const shell = require("shelljs");
 const vorpal = require("vorpal")();
-
+const resolver = require('./resolver')
 const jsigs = require("jsonld-signatures");
 const { AssertionProofPurpose } = jsigs.purposes;
+
 
 
 const { version } = require("../package.json");
@@ -31,6 +33,36 @@ vorpal.command("version", "display version").action(async () => {
       null,
       2
     )
+  );
+  return vorpal.wait(1);
+});
+
+vorpal.command("resolve <did>", "resolve a did").action(async (args) => {
+  let didDocument = await resolver.resolve(args.did)
+  // eslint-disable-next-line
+  console.log(
+    JSON.stringify(didDocument, null, 2)
+  );
+  return vorpal.wait(1);
+});
+
+
+vorpal.command("make-json-key <inputFilePath> <controller>", "convert a public gpg key to json").action(async (args) => {
+
+  const publicKeyString = fs.readFileSync(args.inputFilePath).toString("utf-8");
+  const verificationMethod = {
+    // id: args.publicKeyId,
+    type: 'GpgVerificationKey2020',
+    controller: args.controller,
+    publicKeyGpg: publicKeyString,
+  }
+
+  const key = new GpgLinkedDataKeyClass2020(verificationMethod)
+  await key.init()
+
+  // eslint-disable-next-line
+  console.log(
+    JSON.stringify(key, null, 2)
   );
   return vorpal.wait(1);
 });

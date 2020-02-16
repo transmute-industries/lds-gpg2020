@@ -30,6 +30,7 @@
     "jose": "^1.17.1",
     "jsonld": "^1.8.1",
     "jsonld-signatures": "^4.4.0",
+    "node-fetch": "^2.6.0",
     "openpgp": "^4.9.0",
     "shelljs": "^0.8.3",
     "vorpal": "^1.12.0"

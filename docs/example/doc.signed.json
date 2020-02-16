@@ -13,9 +13,9 @@
   "image": "https://manu.sporny.org/images/manu.png",
   "proof": {
     "type": "GpgSignature2020",
-    "created": "2020-02-16T04:01:10Z",
-    "verificationMethod": "did:example:123#114fae6216de45b78a611d22227982b2ecafbd45",
+    "created": "2020-02-16T17:25:34Z",
+    "verificationMethod": "did:example:123#yolo",
     "proofPurpose": "assertionMethod",
-    "signatureValue": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYIAB0WIQQRT65iFt5Ft4phHSIieYKy7K+9RQUCXki+hgAKCRAieYKy7K+9\nRXpjAQDxQtz9AlS2s/qdZG8vPhjf1MZyRqlmn/kmfg9MF3M3zwEAzwz1caTLQD2B\nRJJPErry/SGws7jtKhbpQ2xJDKe0rQI=\n=Vr14\n-----END PGP SIGNATURE-----\n"
+    "signatureValue": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEIKlopFg0L2sagixb/dtYS98UH5UFAl5Jew4ACgkQ/dtYS98U\nH5XDcAf/TcOq1e1dzPzrNrOETY5tp28Zqq7zYYptC2m2eq0xscOaEeqZqSLHQkcM\nxqu91KaIACRw63yiTmsL2VeK3q7Z7IAmMYh+LyogT37Py88K4v+79HG2DUngfPoV\ngX/CeC9pRufOHzRixQEF4pyhmZ9nYAEJmBozBijdHw68gR2osSx/SB5jYDjtC4+/\nZCvJ0DmPSz7DarD8KznuLal7gdLfa/cZeQZeBLWev3TyNmZIaCAkj55WfeGV0sVA\nbu4BJEd3qsTdiaaSPb53E+CSmryWdm+vrVxYymD5z1pSEg22Gh3FuTqlHzPsRU4a\n1RjNNJJtYF42qoxDBEti65fDDzwVjA==\n=Ygxu\n-----END PGP SIGNATURE-----\n"
   }
 }
