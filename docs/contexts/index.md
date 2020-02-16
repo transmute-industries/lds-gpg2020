@@ -2,8 +2,6 @@
 
 > JSON-LD 1.1 is being formally specified in the W3C JSON-LD Working Group. To participate in this work, please join the W3C and then [join the Working Group](https://www.w3.org/2018/json-ld-wg/).
 
-You can use this repo as a guide for extending contexts, and ensuring that your JSON-LD is functioning as expected and fully documented. This should help you make the case that your extensions should be included, or eliminate the need for them to be included.
-
 - [Latest JSON-LD Context](https://gpg.jsld.org/contexts/lds-gpg2020-v0.0.jsonld)
 
 ### Suite Details
