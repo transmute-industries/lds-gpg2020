@@ -6,116 +6,116 @@
   "id": "did:example:123",
   "publicKey": [
     {
-      "id": "did:example:123#114fae6216de45b78a611d22227982b2ecafbd45",
+      "id": "did:example:123#989ed1057a294c8a3665add842e784c4d08de1e2",
       "type": "GpgVerificationKey2020",
       "controller": "did:example:123",
-      "publicKeyGpg": "-----BEGIN PGP PUBLIC KEY BLOCK-----\r\nVersion: OpenPGP.js v4.9.0\r\nComment: https://openpgpjs.org\r\n\r\nxjMEXki8lBYJKwYBBAHaRw8BAQdAauYJb8sAceBN12LenFVFf/x6RLExgBtD\r\nX0daKEVtVovNG0pvbiBTbWl0aCA8am9uQGV4YW1wbGUuY29tPsJ4BBAWCgAg\r\nBQJeSLyUBgsJBwgDAgQVCAoCBBYCAQACGQECGwMCHgEACgkQInmCsuyvvUWa\r\n0gD+N8KD5l33/xWkB2TBCDTUXv6v2vp6HesQ68mIcRelt2IBAP1B1odDVrL3\r\nP3WwUVMPXjYZhxXwHvnyHCAMbyJqzz4CzjgEXki8lBIKKwYBBAGXVQEFAQEH\r\nQJSY2MqHN8xR0IvM+4TN7YXqFnu3+/JHfmqliykKNQcKAwEIB8JhBBgWCAAJ\r\nBQJeSLyUAhsMAAoJECJ5grLsr71F/y8A/RB4FAAORZ6xoAE93cu0XwZkChdP\r\nf4Fu1VVWdp3PnHPZAQDD9BHhfwoLAyGprC2p4EuK+yCanE4WX/GGptQPkaax\r\nBw==\r\n=Fv7O\r\n-----END PGP PUBLIC KEY BLOCK-----\r\n"
+      "publicKeyGpg": "-----BEGIN PGP PUBLIC KEY BLOCK-----\r\nVersion: OpenPGP.js v4.9.0\r\nComment: https://openpgpjs.org\r\n\r\nxjMEXkm5LRYJKwYBBAHaRw8BAQdASmfrjYr7vrjwHNiBsdcImK397Vc3t4BL\r\nE8rnNqEivqzNG0pvbiBTbWl0aCA8am9uQGV4YW1wbGUuY29tPsJ4BBAWCgAg\r\nBQJeSbktBgsJBwgDAgQVCAoCBBYCAQACGQECGwMCHgEACgkQQueExNCN4eJZ\r\n3QEAjfLsU02Etv1O8OvrA7qsOB/MC86Q16wKweYp62HdJT8BAORZ7hhIrqT4\r\n0dEX9N3FlYZxPzVy5sHEVrFwFWfSn2MPzjgEXkm5LRIKKwYBBAGXVQEFAQEH\r\nQJYulT104A1J3ILdeZZtEPc3PHo0YQO1WQJooFY3pUR5AwEIB8JhBBgWCAAJ\r\nBQJeSbktAhsMAAoJEELnhMTQjeHiYQ4A/jcci2Oe43DQsdjOj3Tl9eij5DXY\r\nghwhhf6xqm7y0wjlAP9dyY65ngPcvwWyR7kf3051WfkgF93WtpfAoapBLEv6\r\nDw==\r\n=wSoi\r\n-----END PGP PUBLIC KEY BLOCK-----\r\n"
     },
     {
-      "id": "did:example:123#cb025a7b277ed37d84673609cc90431fc23ee07b",
+      "id": "did:example:123#c13839f62a0bcfbbef909863e0a23454a062c4a6",
       "type": "GpgVerificationKey2020",
       "controller": "did:example:123",
-      "publicKeyGpg": "-----BEGIN PGP PUBLIC KEY BLOCK-----\r\nVersion: OpenPGP.js v4.9.0\r\nComment: https://openpgpjs.org\r\n\r\nxk8EXki8lBMFK4EEAAoCAwTZu4Q4MUSD6RbbBNtbKf6CgdEbdr5F5bA5CzM/\r\n8qNVEP1rcpK3fuvnruS0UdEyfaRZ7u98cZNNjIYW1tQZVI3TzRtKb24gU21p\r\ndGggPGpvbkBleGFtcGxlLmNvbT7CeAQQEwgAIAUCXki8lAYLCQcIAwIEFQgK\r\nAgQWAgEAAhkBAhsDAh4BAAoJEMyQQx/CPuB7QuIA/2WQrx1i1I+S+1zH24MF\r\n7OVb98cUiQ9QoLHc+8W1mnGCAP9cCtETOyJRadTk7Zvz8GkjfbgZqBsdOUep\r\nh26wAmiisc5TBF5IvJQSBSuBBAAKAgMEb0tfhEtwSjyRno8aHUa03VI+lSmZ\r\nDAM9V57bBTCJLtgwj8gjCzt4xtGYsxblPyz8zX6ThhwBH78DJx7f8RvKiAMB\r\nCAfCYQQYEwgACQUCXki8lAIbDAAKCRDMkEMfwj7gewucAQDuqmOpfVSpwuI4\r\nd7e8kjlxI8O/Awm1kz0rMd7GzXkHOAEA+mz4ZkklydPxviW0Q13kVkywcEQQ\r\nV4oZpk2rhsye4dQ=\r\n=iEV+\r\n-----END PGP PUBLIC KEY BLOCK-----\r\n"
+      "publicKeyGpg": "-----BEGIN PGP PUBLIC KEY BLOCK-----\r\nVersion: OpenPGP.js v4.9.0\r\nComment: https://openpgpjs.org\r\n\r\nxk8EXkm5LRMFK4EEAAoCAwTT1BF/Mg2xbNhP4UT18nygqaJuErGLOfH+Kbya\r\nMUk8CbxFFKL7zz9inUYGrCfnh44Y633PiBecAdoIa0ZEs5R3zRtKb24gU21p\r\ndGggPGpvbkBleGFtcGxlLmNvbT7CeAQQEwgAIAUCXkm5LQYLCQcIAwIEFQgK\r\nAgQWAgEAAhkBAhsDAh4BAAoJEOCiNFSgYsSmGq8BAMYSUa9tYWuiYSHUcUX0\r\ngSvxmlS4MEovQzhTxc0GA4+mAP9q+LK4FMn08RFpjRwfUlOKsMtKNXCaS4Lc\r\nCw9S6xYjUM5TBF5JuS0SBSuBBAAKAgME2DhTCSo8S1Wmcw0wprf+TxjOphrF\r\nxvxgOcxfhzc6GLgJG4PLujOQbanf9WfS0yHtMawu9+XFbKa5YGNlDS0TCAMB\r\nCAfCYQQYEwgACQUCXkm5LQIbDAAKCRDgojRUoGLEpq2kAP4+2TzH3XOqC1Lo\r\nwmL+xbU2NEg5pQtLLQnFkqBeYgJMaQEAqCFNFvIOC+EXKFcJApbrnBUGlEoc\r\nDH1hd+mSMzFQ7P8=\r\n=wen9\r\n-----END PGP PUBLIC KEY BLOCK-----\r\n"
     },
     {
-      "id": "did:example:123#8dafc73c10bcdff77ad6f48a3f8a312eaac2f9a8",
+      "id": "did:example:123#a4860f235d198f720386dfa487754dc36de8723a",
       "type": "GpgVerificationKey2020",
       "controller": "did:example:123",
-      "publicKeyGpg": "-----BEGIN PGP PUBLIC KEY BLOCK-----\r\nVersion: OpenPGP.js v4.9.0\r\nComment: https://openpgpjs.org\r\n\r\nxlIEXki8lBMIKoZIzj0DAQcCAwSEhemCjnA155XaOf8IVz+JVbN+t4/aDW7H\r\n4F2YpOBVyDckSVyvtoe1KyWDVBSJ2Bdg7JKK/boZCQKAuZ3BYHr2zRtKb24g\r\nU21pdGggPGpvbkBleGFtcGxlLmNvbT7CeAQQEwgAIAUCXki8lAYLCQcIAwIE\r\nFQgKAgQWAgEAAhkBAhsDAh4BAAoJED+KMS6qwvmoxkQBAN7PxFVIHATU7utu\r\nPtu89kx4pxxczifM/ATQVZbS+Ol3AP4hnV9z/Xb9vRNJJaTOTBHBnDdJLBAJ\r\n0tLTxZCzl8mLJ85WBF5IvJQSCCqGSM49AwEHAgME2/bli9jrDkmRqJ+pqbVR\r\nF7NG/pjsrnNTAbURrxlpxx4VfrybOuu0f8QLZjggJI8k5Vs7xlONTvT5zsqz\r\nJNlXmQMBCAfCYQQYEwgACQUCXki8lAIbDAAKCRA/ijEuqsL5qLoeAQD71UXo\r\nt8MMz3Ixd5Kh2UmfUJEINSvBUKfhs687Hb5hbQEAtVrTX1yYwDfdh+sigFHK\r\n0Ydh2bqhdA0JSVdDuTe/jg0=\r\n=NoTw\r\n-----END PGP PUBLIC KEY BLOCK-----\r\n"
+      "publicKeyGpg": "-----BEGIN PGP PUBLIC KEY BLOCK-----\r\nVersion: OpenPGP.js v4.9.0\r\nComment: https://openpgpjs.org\r\n\r\nxlIEXkm5LRMIKoZIzj0DAQcCAwROEYvchq493Zd2RUKt9HHKDVq5QKcsnzTO\r\n9RbiymAd6ICCb7K/V+/Zwn3p6rAL6GkooTScDCTrPj37Lx2hHAf1zRtKb24g\r\nU21pdGggPGpvbkBleGFtcGxlLmNvbT7CeAQQEwgAIAUCXkm5LQYLCQcIAwIE\r\nFQgKAgQWAgEAAhkBAhsDAh4BAAoJEId1TcNt6HI6P20BAJ6m//e5T65qmay5\r\n8Ytqrq9546JgF83qnumS/WW+hIc7AQDSY9YvG1Z24GWVj5iGH39eDe2Sptw1\r\nMf45yc1w7fq+2s5WBF5JuS0SCCqGSM49AwEHAgMEZXl/bgamRQXh2TpkBKt1\r\nzY8OXC9QwVvrD6eNSdAO7CnrBpIuQuiPdaGkOxV/4UN3EhMJrntMTU7gu2xU\r\nH5hbFgMBCAfCYQQYEwgACQUCXkm5LQIbDAAKCRCHdU3DbehyOgA5AQCzkk4W\r\np48+j/QTAnA5fqOfQt2q4QS2FJula+T4oh53vAEAskJQkGDfmF3Q5t4nX2ZZ\r\nZxTCJ7QJ3Ly/321oAp4KyN4=\r\n=f5MV\r\n-----END PGP PUBLIC KEY BLOCK-----\r\n"
     },
     {
-      "id": "did:example:123#5032ad4a11a972760f7d0dd36dd9c3b8826d5e18",
+      "id": "did:example:123#589d096a0fed9c901e9937ad981e8430319a891a",
       "type": "GpgVerificationKey2020",
       "controller": "did:example:123",
-      "publicKeyGpg": "-----BEGIN PGP PUBLIC KEY BLOCK-----\r\nVersion: OpenPGP.js v4.9.0\r\nComment: https://openpgpjs.org\r\n\r\nxm8EXki8lBMFK4EEACIDAwRXPmhESCHmQNUGYAdxAiuqcVKFugnTXlsiUDLj\r\nc2Ttby3dNyChiHHPMHc21epGYBGsmX9HPcY7wezr6F0N7aIsdWHey8fbqrV8\r\ni78ZrydrRrQvUzck+3J3sZXQllINncrNG0pvbiBTbWl0aCA8am9uQGV4YW1w\r\nbGUuY29tPsKYBBATCQAgBQJeSLyUBgsJBwgDAgQVCAoCBBYCAQACGQECGwMC\r\nHgEACgkQbdnDuIJtXhiL/AF9ExHVkm8rDAOUgqumTyDE5TGa/hBXEE7SBHJ4\r\nWFzf3alToS52/9c4VCVUHUy3jFzCAX0SnfV5XuubhQSL/8wwmM2zYdCFl6oY\r\nuThBQOMQHleE0tLDMTjubplyI3/sxQqzqUzOcwReSLyUEgUrgQQAIgMDBH06\r\nofenEx2C2z1w4DiuEz9SdqbcNUOEhcsV44DMGKm5JKNLsLnWwSfhOALL9av5\r\nmD6eURZasEXcuWRTMcnTSFqtMqsT/GLk6kyOUImGqYiT+5/JjKBB9XAJOG7L\r\nDrwGygMBCQjCgQQYEwkACQUCXki8lAIbDAAKCRBt2cO4gm1eGGVSAX9+nIy3\r\nf2QeZfNCKVZBmBMwFV6ui3CqUjd5iqpYK9eHRlmTZXuLmWK8AboJ04YLWyYB\r\ngM+Dt37UNPGbqy9i50+NC9Ek3bbUcnoILE2ArBwbQOB5VcBsWWIlb84ppjXk\r\ntz5cdA==\r\n=5f1a\r\n-----END PGP PUBLIC KEY BLOCK-----\r\n"
+      "publicKeyGpg": "-----BEGIN PGP PUBLIC KEY BLOCK-----\r\nVersion: OpenPGP.js v4.9.0\r\nComment: https://openpgpjs.org\r\n\r\nxm8EXkm5LRMFK4EEACIDAwQHO8wxiJ+Tb3YBU0VW7JtvTQwfrQixfR9dTbXm\r\nvnxRNcV1gTUbO//dCD7bk9t+iDOE8Sf4pIMkBNf0sth2ZDgt2DYWfOSduTX2\r\nTXymWHI644uUEQmHFh5Va76d4/OwETnNG0pvbiBTbWl0aCA8am9uQGV4YW1w\r\nbGUuY29tPsKYBBATCQAgBQJeSbktBgsJBwgDAgQVCAoCBBYCAQACGQECGwMC\r\nHgEACgkQmB6EMDGaiRo9XgGAwVljFYKFxBjUIRBqncBGH8H66a0Y+qqOwAXl\r\nMSJcy3D0XVya6KQNQXPhzIkEHFsuAYCObi+DB6HVVgfrOQ19HpfdZ6pnoSyL\r\npczmNyzjtYK6dwKiu0RibguBa38Q23v0sL7OcwReSbktEgUrgQQAIgMDBBLD\r\nzKfiwqxSvMQG2lkh/EVBa5riJSguKT4ThJ13JKvEpyu2GsZdVc2FmfcbLF6r\r\n6zIhzlxgI1BaAgDWNn5ZEdE5SqSdoYbAyqNdC4B8fbfQGCQKCo516s0wZc92\r\nSucC1AMBCQjCgQQYEwkACQUCXkm5LQIbDAAKCRCYHoQwMZqJGmdRAX9gQ7cn\r\nDMF+Bdb9Gbd3AYXKNH5PWrhZNY06MvufNuTM1XeFdGoHdNIA8R57qSoQEUIB\r\ngNWCtsip+z7uiE3SYHrUWY6qZgCtez90GMzShyS3zDMV2HQhnIgFJmDFJxa6\r\n2oWshQ==\r\n=ajwM\r\n-----END PGP PUBLIC KEY BLOCK-----\r\n"
     },
     {
-      "id": "did:example:123#ccc5d74600f2a1b8d08c89db3c28bd674737da69",
+      "id": "did:example:123#757de42c42e56aa9294982956c83d0c6008a126b",
       "type": "GpgVerificationKey2020",
       "controller": "did:example:123",
-      "publicKeyGpg": "-----BEGIN PGP PUBLIC KEY BLOCK-----\r\nVersion: OpenPGP.js v4.9.0\r\nComment: https://openpgpjs.org\r\n\r\nxpMEXki8lBMFK4EEACMEIwQBv3td3Gzh5wZ8Pwoc9hgjffBo688PipsjE7ll\r\nHStdc0Hf380/eV3/sc1Mtlh7IboZmExcjjGeHoGJKNLbPYRESTQBC+rZq8GO\r\nIffmuY9FjOrvD76ch8ACDHgNlzu+DN3OUvO9nGRjlbeMOSb/ey2m0sZYJS+T\r\nKmS431WGWmsLLo6kVIzNG0pvbiBTbWl0aCA8am9uQGV4YW1wbGUuY29tPsK7\r\nBBATCgAgBQJeSLyUBgsJBwgDAgQVCAoCBBYCAQACGQECGwMCHgEACgkQPCi9\r\nZ0c32mma2QII0KQ89hOioNVd3Sk9xAbFgLfDjhhvrQDHNQlJ75w7ZaKWKWBA\r\ncEpcMh7cha+JMspIJUkAosKe+LPBKF8mKCoBebgCCQEJ3K/w0XU4LCMXYgcw\r\nLNqvXUIEwsKmZRoJa1KDmU2i7dUNy//ou4ZE6XksGDq2r0SEkxKm8uDBqPxv\r\nh7i1iiJfGs6XBF5IvJQSBSuBBAAjBCMEANM2AHHdNDICM8493ZYBfozYkMka\r\ngrEw0mBrZJPyIbqXZlFFGRsxuwpf/6fuAR+LaOdXpeJelDhFNtTwDu1IhnYN\r\nAdSCkyYzwLi11HWszX7Go4HS2smoCHZhnmI7zpnOjC3qg/i3YffGLQV/qHVd\r\nSj8cqOd7/yODjzMmmz0AWuQR51s4AwEKCcKkBBgTCgAJBQJeSLyUAhsMAAoJ\r\nEDwovWdHN9pprksCB0PXQ8AA56ck7Rh/BNDxuOVjzSVASjkX6p+wupa8AB1J\r\nky4bNvuY7jEBoaL7Oa2df+nsj54UIRFv9lqxQKJBYJcEAgkBpButIU2Ow25E\r\nPh4+OvwXpWMsKw4uBTJO+4FCOcJcA3kObXj+m3E+OiVrwV8r4YghPCBnMcMZ\r\nCysYeH7LIh67+oY=\r\n=eaYt\r\n-----END PGP PUBLIC KEY BLOCK-----\r\n"
+      "publicKeyGpg": "-----BEGIN PGP PUBLIC KEY BLOCK-----\r\nVersion: OpenPGP.js v4.9.0\r\nComment: https://openpgpjs.org\r\n\r\nxpMEXkm5LRMFK4EEACMEIwQANTemudWIc33P5dUp6QQUDqJH0UMeWItn/gfv\r\nij4tmNZDTnE0uvGigjLvs0SE3kr7VyDWls1sqHkzofzjgAqeXsQBkTHI0prb\r\nqn/S1UNne/e3Wo20/HYVAj7alyI9qiw5v5y8VAv79giqXqNBMo1XkiCvbdOC\r\nkjTgTdzBWo2IJGPQUfTNG0pvbiBTbWl0aCA8am9uQGV4YW1wbGUuY29tPsK7\r\nBBATCgAgBQJeSbktBgsJBwgDAgQVCAoCBBYCAQACGQECGwMCHgEACgkQbIPQ\r\nxgCKEmsr9gIHcf275MzHlrOfctSze25jnQcABENcNpPymuh9rSQ8L0Hby4LI\r\nYhrTHFmXMs77P5BiJa9kFqwt4WCKew2E0GHlaRcCCQEimUlmuuKcJIOlrWLu\r\n0DCYPidY6wB1CGSa7UOxk1KpvuuYiAKK/i0LNwhrUCIhcakX/o7BbGCJHrOd\r\nF6zPd2OL4c6XBF5JuS0SBSuBBAAjBCMEAU33xVyS6BmiNky0h0NDyPI7bhHE\r\nPNrRQGxDO6WW52iRqQQ1Bp0F142KbfqDaTBgJlxmQvPx274Hc+AMN+aaYTf1\r\nASsc626sUZV3TOBrxsw7PvOW0D7IBmcASBag7U0moMbAp5v0CXGIKJ2NTF/n\r\nxf0MpwV/PgcFb0msqmD7qeb+JSvEAwEKCcKjBBgTCgAJBQJeSbktAhsMAAoJ\r\nEGyD0MYAihJrcOMCCOAKBpuUUlgiUZ2q44xgNpFRPJXKqWe4j+fejq0pCuIC\r\nqPJOMAgmbDJJXpWVsc18Zd7E4NxdEpeJvk59H+QII6vhAgdJfT36xNkdJCiY\r\n6F/dq1mr/0JXI0AdpjrMMAzMJ0vyPKmOADKUdmYApwWLC+vtS+EOLVP6z5VL\r\ncSTnhdBGafS2Aw==\r\n=kFs/\r\n-----END PGP PUBLIC KEY BLOCK-----\r\n"
     },
     {
-      "id": "did:example:123#c160046644fd555ee47470a9dbfd102846fca471",
+      "id": "did:example:123#57e8ba937ce932cc4ff0a6e96ec6910704f56f09",
       "type": "GpgVerificationKey2020",
       "controller": "did:example:123",
-      "publicKeyGpg": "-----BEGIN PGP PUBLIC KEY BLOCK-----\r\nVersion: OpenPGP.js v4.9.0\r\nComment: https://openpgpjs.org\r\n\r\nxo0EXki8lAEEAK/1Tjr0O6n1FsJtld0hJuW0s0Bdt75YCupCRUrtoYasROSf\r\nj7k9Np4y/AvLjsPXOyQFPiPCFV67420FhkfjESUslgYqcCxNibsYwnCrvdOi\r\n4PFhhxertOkMNxInbRtf71AGKGE9LuRWJ+cNqtUrU/KxhipnpRleAVPXEfhQ\r\n77rLABEBAAHNG0pvbiBTbWl0aCA8am9uQGV4YW1wbGUuY29tPsK2BBABCAAg\r\nBQJeSLyUBgsJBwgDAgQVCAoCBBYCAQACGQECGwMCHgEACgkQ2/0QKEb8pHEi\r\njgP9GDlqhwc6ap15i9OYVIf16eZC9hvBGVYy62XQzHyb4AHGL36lFTEhxTCO\r\n5hr4+LftMLe27IMnHVkqmwQjGI0k2LUJI+yCcmBQyxXelKMz3Ta1oUCh3tuK\r\nIVXqd+C6sPUi1RBw3pJGM7m12qsQjhM4wWt4uwDS8l/KdO/m0khxa4bOjQRe\r\nSLyUAQQAuu7dIwvBhvcV+bXHDRQ6+WnFrWfpGKSoofqjDLPNQ7+UfmZ4jmSV\r\nfN0NtSSY0Uv/dth4wzC2c8XcZQubA5uUfTuKmLkKRoh+RzA7fQ/+wg9QzDw2\r\n7u6AgKqZu+JUbhSiCIZJ9MPKBffnvnXqBbwrUwXoWs1NI6yCLLP6LOMSJrEA\r\nEQEAAcKfBBgBCAAJBQJeSLyUAhsMAAoJENv9EChG/KRxsSgD/3yCad+2DwDa\r\n37tnmVe0NsrLKk9onUUycM5u4V0aghzlUUL4JxxQ1KaSNHuMiDLu0jh6iHZw\r\nX9dmwjfQr+P3Ol062x3/hhLWt/JaOOooSzGCbY23GWDJvqB/v1A9L1ZKmoLL\r\nsHoKn8H1rqNyeNyVgkW4wLW1hdKZxxZ6e/cdhpUz\r\n=jszf\r\n-----END PGP PUBLIC KEY BLOCK-----\r\n"
+      "publicKeyGpg": "-----BEGIN PGP PUBLIC KEY BLOCK-----\r\nVersion: OpenPGP.js v4.9.0\r\nComment: https://openpgpjs.org\r\n\r\nxo0EXkm5LQEEAMrU9KGtVBP6eeyEWl7+AH9qRr7ubjkf2FzvXg1TMqrrkqED\r\nBtmnr8WO4P40sOozPQcpPr87CfiF9OeC4zG40VAGdWVjCIHmSKasnnogv6dg\r\nDSqrgYI59SpLjsYuuVkUjab8q3uaRCwkoHP+6ooQnY/i1y6/U7LR/zbl6776\r\n1sz9ABEBAAHNG0pvbiBTbWl0aCA8am9uQGV4YW1wbGUuY29tPsK2BBABCAAg\r\nBQJeSbktBgsJBwgDAgQVCAoCBBYCAQACGQECGwMCHgEACgkQbsaRBwT1bwlF\r\nLwP/dZ6rQuQJqMuwWhhV/gVSDDby8zPkHLA6SJvMrPXeGl14WEHMxK64noau\r\ntDcWcbuWDNqBnZ+nOeMdRYvnxaav4KBsqWGqXI1RXMwA3mkx1qxu0QzV5rlr\r\nET9cLk7UaycOL9w+06QBn537BnPOcP5JdGv7ZhQ6I8LqvsgHuKVvGLzOjQRe\r\nSbktAQQApLUM99XFtdL2MyM9UAudnIP0nr6a2ZrgLJnvt+3nEG0rhCsonO2B\r\nEK8RgwdbwZPppuP9PvKCzuXlltsAHliFNczbu6BE7VvuXyWmbBW+r/JaAL1G\r\n3W1elfux7+5RScUlyueKtZ/q68w3eluKKfLVcpgREW5x0J1FnzvJsVIEz7UA\r\nEQEAAcKfBBgBCAAJBQJeSbktAhsMAAoJEG7GkQcE9W8JpcAEAJul6o8yF5Tx\r\n2NXPqCZErw8fl6e2apfS0XFOd+hZTE15/SN5/nefJktXMFt7/R2G+o6yVSTA\r\n4oPmgo3cedlKoUeRQsoQfLeJQETvMgoIY1VUmtNnGuTZRG1VhOHHUGN4bKeA\r\n7MLsww/tDRK1WBV7mbKjSfQ6ZepBgiHMic6EkF1k\r\n=/F62\r\n-----END PGP PUBLIC KEY BLOCK-----\r\n"
     }
   ],
   "authentication": [
-    "did:example:123#114fae6216de45b78a611d22227982b2ecafbd45",
-    "did:example:123#cb025a7b277ed37d84673609cc90431fc23ee07b",
-    "did:example:123#8dafc73c10bcdff77ad6f48a3f8a312eaac2f9a8",
-    "did:example:123#5032ad4a11a972760f7d0dd36dd9c3b8826d5e18",
-    "did:example:123#ccc5d74600f2a1b8d08c89db3c28bd674737da69",
-    "did:example:123#c160046644fd555ee47470a9dbfd102846fca471"
+    "did:example:123#989ed1057a294c8a3665add842e784c4d08de1e2",
+    "did:example:123#c13839f62a0bcfbbef909863e0a23454a062c4a6",
+    "did:example:123#a4860f235d198f720386dfa487754dc36de8723a",
+    "did:example:123#589d096a0fed9c901e9937ad981e8430319a891a",
+    "did:example:123#757de42c42e56aa9294982956c83d0c6008a126b",
+    "did:example:123#57e8ba937ce932cc4ff0a6e96ec6910704f56f09"
   ],
   "assertionMethod": [
-    "did:example:123#114fae6216de45b78a611d22227982b2ecafbd45",
-    "did:example:123#cb025a7b277ed37d84673609cc90431fc23ee07b",
-    "did:example:123#8dafc73c10bcdff77ad6f48a3f8a312eaac2f9a8",
-    "did:example:123#5032ad4a11a972760f7d0dd36dd9c3b8826d5e18",
-    "did:example:123#ccc5d74600f2a1b8d08c89db3c28bd674737da69",
-    "did:example:123#c160046644fd555ee47470a9dbfd102846fca471"
+    "did:example:123#989ed1057a294c8a3665add842e784c4d08de1e2",
+    "did:example:123#c13839f62a0bcfbbef909863e0a23454a062c4a6",
+    "did:example:123#a4860f235d198f720386dfa487754dc36de8723a",
+    "did:example:123#589d096a0fed9c901e9937ad981e8430319a891a",
+    "did:example:123#757de42c42e56aa9294982956c83d0c6008a126b",
+    "did:example:123#57e8ba937ce932cc4ff0a6e96ec6910704f56f09"
   ],
   "capabilityDelegation": [
-    "did:example:123#114fae6216de45b78a611d22227982b2ecafbd45",
-    "did:example:123#cb025a7b277ed37d84673609cc90431fc23ee07b",
-    "did:example:123#8dafc73c10bcdff77ad6f48a3f8a312eaac2f9a8",
-    "did:example:123#5032ad4a11a972760f7d0dd36dd9c3b8826d5e18",
-    "did:example:123#ccc5d74600f2a1b8d08c89db3c28bd674737da69",
-    "did:example:123#c160046644fd555ee47470a9dbfd102846fca471"
+    "did:example:123#989ed1057a294c8a3665add842e784c4d08de1e2",
+    "did:example:123#c13839f62a0bcfbbef909863e0a23454a062c4a6",
+    "did:example:123#a4860f235d198f720386dfa487754dc36de8723a",
+    "did:example:123#589d096a0fed9c901e9937ad981e8430319a891a",
+    "did:example:123#757de42c42e56aa9294982956c83d0c6008a126b",
+    "did:example:123#57e8ba937ce932cc4ff0a6e96ec6910704f56f09"
   ],
   "capabilityInvocation": [
-    "did:example:123#114fae6216de45b78a611d22227982b2ecafbd45",
-    "did:example:123#cb025a7b277ed37d84673609cc90431fc23ee07b",
-    "did:example:123#8dafc73c10bcdff77ad6f48a3f8a312eaac2f9a8",
-    "did:example:123#5032ad4a11a972760f7d0dd36dd9c3b8826d5e18",
-    "did:example:123#ccc5d74600f2a1b8d08c89db3c28bd674737da69",
-    "did:example:123#c160046644fd555ee47470a9dbfd102846fca471"
+    "did:example:123#989ed1057a294c8a3665add842e784c4d08de1e2",
+    "did:example:123#c13839f62a0bcfbbef909863e0a23454a062c4a6",
+    "did:example:123#a4860f235d198f720386dfa487754dc36de8723a",
+    "did:example:123#589d096a0fed9c901e9937ad981e8430319a891a",
+    "did:example:123#757de42c42e56aa9294982956c83d0c6008a126b",
+    "did:example:123#57e8ba937ce932cc4ff0a6e96ec6910704f56f09"
   ],
   "proof": [
     {
       "type": "GpgSignature2020",
-      "created": "2020-02-16T03:52:53Z",
-      "verificationMethod": "did:example:123#114fae6216de45b78a611d22227982b2ecafbd45",
+      "created": "2020-02-16T21:50:38Z",
+      "verificationMethod": "did:example:123#989ed1057a294c8a3665add842e784c4d08de1e2",
       "proofPurpose": "assertionMethod",
-      "signatureValue": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.9.0\r\nComment: https://openpgpjs.org\r\n\r\nwl4EABYKAAYFAl5IvJUACgkQInmCsuyvvUV8+QEAzD8YS8IZvhasQ0RvCZTo\r\nH3KCE2FIbNizppFpXOszxS8BAJHKE2pjn3t8xlc9ZOKYjGzPIXdZ1rcyRgrw\r\n9bKHAnoL\r\n=EPhA\r\n-----END PGP SIGNATURE-----\r\n"
+      "signatureValue": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.9.0\r\nComment: https://openpgpjs.org\r\n\r\nwl4EABYKAAYFAl5JuS4ACgkQQueExNCN4eIijwEAtiFdu9/rak1paUgQaVkk\r\nqIRX5BzDbNg3BH4RYqvsE48BAOZVXLmsTDr8w2B3VOi/8gCpNKzMqz++X788\r\niNJQVU4K\r\n=gIiC\r\n-----END PGP SIGNATURE-----\r\n"
     },
     {
       "type": "GpgSignature2020",
-      "created": "2020-02-16T03:52:53Z",
-      "verificationMethod": "did:example:123#cb025a7b277ed37d84673609cc90431fc23ee07b",
+      "created": "2020-02-16T21:50:38Z",
+      "verificationMethod": "did:example:123#c13839f62a0bcfbbef909863e0a23454a062c4a6",
       "proofPurpose": "assertionMethod",
-      "signatureValue": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.9.0\r\nComment: https://openpgpjs.org\r\n\r\nwl4EABMIAAYFAl5IvJUACgkQzJBDH8I+4HtdVQD/UQgAmRiqmdiO/WHXJKPa\r\nt3ghoQR7Q/CVOwdSPAAeFjQA/3zwM++KiPv2VjEABzecys0FabY2yTBdnuHq\r\nsZjIGuym\r\n=GpFE\r\n-----END PGP SIGNATURE-----\r\n"
+      "signatureValue": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.9.0\r\nComment: https://openpgpjs.org\r\n\r\nwl4EABMIAAYFAl5JuS4ACgkQ4KI0VKBixKbdEAD/fmwWmS/HuQn+JOYGdMLz\r\nM5owh0ckSP3ah7m6FQmeyTkBAPdZFjf3y0BjP8l+uHbPJVuf+7Es333ZB3PD\r\n/38HNkui\r\n=CAOs\r\n-----END PGP SIGNATURE-----\r\n"
     },
     {
       "type": "GpgSignature2020",
-      "created": "2020-02-16T03:52:53Z",
-      "verificationMethod": "did:example:123#8dafc73c10bcdff77ad6f48a3f8a312eaac2f9a8",
+      "created": "2020-02-16T21:50:38Z",
+      "verificationMethod": "did:example:123#a4860f235d198f720386dfa487754dc36de8723a",
       "proofPurpose": "assertionMethod",
-      "signatureValue": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.9.0\r\nComment: https://openpgpjs.org\r\n\r\nwl4EABMIAAYFAl5IvJUACgkQP4oxLqrC+agGvAD/eVv01cT1J1KSajLyPMTy\r\nfFjeQWMVoVheld4aplWYuGEBAIiVrh6LLIh+mY6YcQzkw7GohS7v2JxfICPF\r\n/2TVHgm3\r\n=Vvmh\r\n-----END PGP SIGNATURE-----\r\n"
+      "signatureValue": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.9.0\r\nComment: https://openpgpjs.org\r\n\r\nwl4EABMIAAYFAl5JuS4ACgkQh3VNw23ocjpDwgEAuFvHu1sH1S7HGqbl+jJ+\r\n+yuKqxJRkWmQDUuGsFanuBsBAJAwJGA+6xU2EyuQNUVeStjeCALenNSWzYl1\r\nXRwmkT/q\r\n=X5DK\r\n-----END PGP SIGNATURE-----\r\n"
     },
     {
       "type": "GpgSignature2020",
-      "created": "2020-02-16T03:52:53Z",
-      "verificationMethod": "did:example:123#5032ad4a11a972760f7d0dd36dd9c3b8826d5e18",
+      "created": "2020-02-16T21:50:38Z",
+      "verificationMethod": "did:example:123#589d096a0fed9c901e9937ad981e8430319a891a",
       "proofPurpose": "assertionMethod",
-      "signatureValue": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.9.0\r\nComment: https://openpgpjs.org\r\n\r\nwn4EABMJAAYFAl5IvJUACgkQbdnDuIJtXhjjaAF/fhYusqu0pqxwNq6YA7XT\r\nBzCeKNHFqc3lidLJzKTXdeXp5+pjnE+l1S7qzqeAy5/hAX4+CDUMcSnYcS6K\r\nV0aiaeO2YPK4r7y3z85FxUTuV8N1VWcIy/xClPGkzfwE4hlLyR8=\r\n=4Isz\r\n-----END PGP SIGNATURE-----\r\n"
+      "signatureValue": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.9.0\r\nComment: https://openpgpjs.org\r\n\r\nwn4EABMJAAYFAl5JuS4ACgkQmB6EMDGaiRoj+AGAmf4Hp9J5ryOv8v8G/m7+\r\nQCFyGhjQCFY5SW3HWs/+sls5lDBvbHqnr/FVUGT3Pzm3AX4wL4QQNHW422Ft\r\nIS71PiW/cQyMvZ206x1QLyA7qNgdY90SP/QAHWoXjurqscwgCVE=\r\n=Q8Oc\r\n-----END PGP SIGNATURE-----\r\n"
     },
     {
       "type": "GpgSignature2020",
-      "created": "2020-02-16T03:52:53Z",
-      "verificationMethod": "did:example:123#ccc5d74600f2a1b8d08c89db3c28bd674737da69",
+      "created": "2020-02-16T21:50:38Z",
+      "verificationMethod": "did:example:123#757de42c42e56aa9294982956c83d0c6008a126b",
       "proofPurpose": "assertionMethod",
-      "signatureValue": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.9.0\r\nComment: https://openpgpjs.org\r\n\r\nwqIEABMKAAYFAl5IvJUACgkQPCi9Z0c32mnhhAIJAcJp+j0BPeVAW7tcAXOU\r\nVD2JrP64RSc8yq+v53tnHl8QgUppwJs0NMIi9HvwKjKittbNFDuTLWSVJj4t\r\n4kdThBcUAgkBh9f2mIhp3GZAbCWDvfYKhIkLosTFG+7PnhXoP9WqLGLjIgiB\r\ncBINzVLSKtXmbqCmMIBa/0f5GoaiaJxbCMQoaNA=\r\n=YEZ1\r\n-----END PGP SIGNATURE-----\r\n"
+      "signatureValue": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.9.0\r\nComment: https://openpgpjs.org\r\n\r\nwqIEABMKAAYFAl5JuS4ACgkQbIPQxgCKEmsDLwIJAXSdzgdGhLAge0ElKStD\r\ntvB8u5AxMPyIjmyHuPtKsrT0j3mHTg9kEL9J06+vYQF0YVVLuJw42MkWR246\r\neA1klPh0AgkB5Zddfu31SBukfjXSo3Awjp4CiLY1Guz7lsBdFTtMf6fI2WA0\r\nnk2W838ybb4jC//W6+zjtfLs471NT12CZG8Wgbw=\r\n=2QrT\r\n-----END PGP SIGNATURE-----\r\n"
     },
     {
       "type": "GpgSignature2020",
-      "created": "2020-02-16T03:52:53Z",
-      "verificationMethod": "did:example:123#c160046644fd555ee47470a9dbfd102846fca471",
+      "created": "2020-02-16T21:50:38Z",
+      "verificationMethod": "did:example:123#57e8ba937ce932cc4ff0a6e96ec6910704f56f09",
       "proofPurpose": "assertionMethod",
-      "signatureValue": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.9.0\r\nComment: https://openpgpjs.org\r\n\r\nwpwEAAEIAAYFAl5IvJUACgkQ2/0QKEb8pHGUiAP9E3p24NEmyAQ5VoQjmtin\r\np+qqrdSk2y2Nzj9+KpmB5JDG0j+QAMlCXcTt7xHD4pDZYmWFvI7AvbwPHzGj\r\nJxnwu7s0BTyTr3mY1Sq0bQJveF5l6EXC9g1UJz4LEOXTy3JD5AF2TSmg4Koj\r\nuPB6wSORfygrl0Pn0i61BuZoo3PBWv8=\r\n=3Qgv\r\n-----END PGP SIGNATURE-----\r\n"
+      "signatureValue": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.9.0\r\nComment: https://openpgpjs.org\r\n\r\nwpwEAAEIAAYFAl5JuS4ACgkQbsaRBwT1bwmuVAP8DB8dHAH7hpPyGWPgE+GY\r\nsdcoawgXxqKWNxk/RrQsMm3lJ8BTXNvcSqSvTwbm3mNAPYa2697jYw461WnD\r\nn/i7IPNW/5lKZhM7KrrKq8kiKtnQQ9omrK10avY4pXBPj6eUcIYCF7jtSfmg\r\nXcb99JYFAZNSCaNSVEe5auOowVNeJBQ=\r\n=L9Sr\r\n-----END PGP SIGNATURE-----\r\n"
     }
   ]
 }
