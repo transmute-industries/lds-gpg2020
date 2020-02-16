@@ -62,35 +62,26 @@ npm run gpg2020 -- verify $(pwd)/docs/example/doc.signed.yubikey.json
 
 ```
 
+#### Suite Details
 
-### About Linked Data Signatures
+Per [ld-signatures](https://w3c-dvcg.github.io/ld-signatures/#signature-suites), this Signature Suite defines the following:
 
-A JSON-LD Signature has a verification key type, and a signature/proof type for example:
+```json
+{
+  "id": "https://gpg.jsld.org/contexts/#GpgSignature2020",
+  "type": "SignatureSuite",
+  "canonicalizationAlgorithm": "https://w3id.org/security#URDNA2015",
+  "digestAlgorithm": "https://www.ietf.org/assignments/jwa-parameters#SHA256",
+  "signatureAlgorithm": "https://tools.ietf.org/html/rfc4880#section-11.4"
+}
+```
 
-- `GpgVerificationKey2020`
-- `GpgSignature2020`
+See the [Linked Data Signature Suite Vocabulary](https://gpg.jsld.org/contexts/).
 
-This library makes working with Linked Data Signatures trivial for developers familar with JWS.
+#### Example Data
 
-- [example keystore](./example/didDocGpgKeys.json).
-
-- [example did doc](./example/didDoc.json)
-
-You must provide both a json-ld context, and human readable documentation for every property you create for your signature suite.
-
-In this case, we define these verification key and proof formats, as well as the `publicKeyGpg` property.
-
-You can read the documentation here:
-
-[https://transmute-industries.github.io/lds-gpg2020/](https://transmute-industries.github.io/lds-gpg2020/)
-
-And the context:
-
-[https://transmute-industries.github.io/lds-gpg2020/contexts/lds-gpg2020-v0.0.jsonld](https://transmute-industries.github.io/lds-gpg2020/contexts/lds-gpg2020-v0.0.jsonld)
-
-You MUST always version context files, and MUST ensure they remain resolvable at their published path once they are in use.
-
-Failure to do so is similar to not maintaining an npm module, or unpublishing a module that may be used by others. If you are not sure if you can maintain a JSON-LD context, its best that you not create one, or rely on github / community structures to ensure that the context can easily be updated.
+- [example keys](https://gpg.jsld.org/example/didDocGpgKeys.json).
+- [example did document](https://gpg.jsld.org/example/didDoc.json)
 
 ## Yubikey
 

@@ -6,6 +6,20 @@ You can use this repo as a guide for extending contexts, and ensuring that your 
 
 - [Latest JSON-LD Context](https://gpg.jsld.org/contexts/lds-gpg2020-v0.0.jsonld)
 
+### Suite Details
+
+Per [ld-signatures](https://w3c-dvcg.github.io/ld-signatures/#signature-suites), this Signature Suite defines the following:
+
+```json
+{
+  "id": "https://gpg.jsld.org/contexts/#GpgSignature2020",
+  "type": "SignatureSuite",
+  "canonicalizationAlgorithm": "https://w3id.org/security#URDNA2015",
+  "digestAlgorithm": "https://www.ietf.org/assignments/jwa-parameters#SHA256",
+  "signatureAlgorithm": "https://tools.ietf.org/html/rfc4880#section-11.4"
+}
+```
+
 ### Terminology
 
 <h4 id="publicKeyGpg"><a href="#publicKeyGpg">publicKeyGpg</a></h4>
