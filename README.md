@@ -1,6 +1,6 @@
 # Linked Data Signatures for JWS
 
-[View On Github](https://github.com/transmute-industries/lds-jws2020)
+[View On Github](https://github.com/transmute-industries/lds-gpg2020)
 
 ## Security Considerations
 
@@ -31,8 +31,8 @@ Anything else will result in an unsupported alg error.
 
 A JSON-LD Signature has a verification key type, and a signature/proof type for example:
 
-- `JwsVerificationKey2020`
-- `JsonWebSignature2020`
+- `GpgVerificationKey2020`
+- `GpgSignature2020`
 
 This library makes working with Linked Data Signatures trivial for developers familar with JWS.
 
@@ -46,11 +46,11 @@ In this case, we define these verification key and proof formats, as well as the
 
 You can read the documentation here:
 
-[https://transmute-industries.github.io/lds-jws2020/](https://transmute-industries.github.io/lds-jws2020/)
+[https://transmute-industries.github.io/lds-gpg2020/](https://transmute-industries.github.io/lds-gpg2020/)
 
 And the context:
 
-[https://transmute-industries.github.io/lds-jws2020/contexts/lds-jws2020-v0.0.jsonld](https://transmute-industries.github.io/lds-jws2020/contexts/lds-jws2020-v0.0.jsonld)
+[https://transmute-industries.github.io/lds-gpg2020/contexts/lds-gpg2020-v0.0.jsonld](https://transmute-industries.github.io/lds-gpg2020/contexts/lds-gpg2020-v0.0.jsonld)
 
 You MUST always version context files, and MUST ensure they remain resolvable at their published path once they are in use.
 

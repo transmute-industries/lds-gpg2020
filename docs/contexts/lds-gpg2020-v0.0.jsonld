@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "ldsgpg": "https://transmute-industries.github.io/lds-gpg2020/#",
+    "GpgVerificationKey2020": "ldsgpg:GpgVerificationKey2020",
+    "GpgSignature2020": "ldsgpg:GpgSignature2020",
+    "publicKeyGpg": "ldsgpg:publicKeyGpg"
+  }
+}
