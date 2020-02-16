@@ -1,6 +1,6 @@
-title: [Linked Data Signature Starter Kit]
+title: [Linked Data Signatures for GPG]
 description:
   [
-    The purpose of this repo is to provide a starting point for developers wishing to implement JSON-LD Signatures.,
+    JSON-LD Signatures with GPG.,
   ]
 # google_analytics: [Your Google Analytics tracking ID]
