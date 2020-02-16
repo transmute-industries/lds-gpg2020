@@ -27,13 +27,15 @@ const customLoader = url => {
     };
   }
 
-  if (url === "did:example:123") {
+  if (url.indexOf("did:example:123") !== -1) {
     return {
       contextUrl: null, // this is for a context via a link header
       document: require("../../../docs/example/didDoc.json"), // this is the actual document that was loaded
       documentUrl: url // this is the actual context URL after redirects
     };
   }
+
+
   return jsonld.documentLoaders.node()(url);
 };
 

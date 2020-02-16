@@ -52,6 +52,7 @@ describe("integration tests", () => {
         suite
       });
 
+      // console.log(JSON.stringify(signed, null, 2))
       expect(result.verified).toBeTruthy();
     });
   });

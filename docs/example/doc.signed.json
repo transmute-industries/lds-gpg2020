@@ -1,0 +1,21 @@
+{
+  "@context": [
+    "https://transmute-industries.github.io/lds-gpg2020/contexts/lds-gpg2020-v0.0.jsonld",
+    {
+      "schema": "http://schema.org/",
+      "name": "schema:name",
+      "homepage": "schema:url",
+      "image": "schema:image"
+    }
+  ],
+  "name": "Manu Sporny",
+  "homepage": "https://manu.sporny.org/",
+  "image": "https://manu.sporny.org/images/manu.png",
+  "proof": {
+    "type": "GpgSignature2020",
+    "created": "2020-02-16T03:49:38Z",
+    "verificationMethod": "did:example:123#20128faebf24147175087cc3898c394040b8c4d7",
+    "proofPurpose": "assertionMethod",
+    "signatureValue": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYIAB0WIQQgEo+uvyQUcXUIfMOJjDlAQLjE1wUCXki71AAKCRCJjDlAQLjE\n1yVsAQD0XZv7yzQXAyNhQqHm7vi7S22K33+vtu6VfTvPIvDMLwD/aLBD4xFqnpXL\ndnSd8cg/sRFrImlUlMWYygmAgwKffAE=\n=vbIO\n-----END PGP SIGNATURE-----\n"
+  }
+}

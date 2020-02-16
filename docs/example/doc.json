@@ -1,0 +1,14 @@
+{
+    "@context": [
+        "https://transmute-industries.github.io/lds-gpg2020/contexts/lds-gpg2020-v0.0.jsonld",
+        {
+            "schema": "http://schema.org/",
+            "name": "schema:name",
+            "homepage": "schema:url",
+            "image": "schema:image"
+        }
+    ],
+    "name": "Manu Sporny",
+    "homepage": "https://manu.sporny.org/",
+    "image": "https://manu.sporny.org/images/manu.png"
+}

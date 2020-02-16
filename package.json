@@ -1,10 +1,14 @@
 {
-  "name": "lds-gpg2020",
+  "name": "@transmute/lds-gpg2020",
   "version": "1.0.0",
   "description": "Linked Data Signatures for GPG",
   "homepage": "https://gpg.jsld.org/",
   "main": "./src/index.js",
+  "bin": {
+    "gpg2020": "./bin/bin.js"
+  },
   "scripts": {
+    "gpg2020": "node ./bin/bin.js",
     "test": "jest",
     "coverage": "jest --coverage",
     "docs": "jsdoc -c ./jsdoc.json"
@@ -24,9 +28,11 @@
     "crypto-ld": "^3.7.0",
     "did-method-key": "^0.2.0",
     "jose": "^1.17.1",
-    "jsonld": "^1.8.0",
+    "jsonld": "^1.8.1",
     "jsonld-signatures": "^4.4.0",
-    "openpgp": "^4.9.0"
+    "openpgp": "^4.9.0",
+    "shelljs": "^0.8.3",
+    "vorpal": "^1.12.0"
   },
   "devDependencies": {
     "@trust/keyto": "^0.3.7",

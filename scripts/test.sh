@@ -1,0 +1,2 @@
+npm run gpg2020 -- sign -u "20128FAEBF24147175087CC3898C394040B8C4D7" $(pwd)/docs/example/doc.json did:example:123#20128faebf24147175087cc3898c394040b8c4d7 -o $(pwd)/docs/example/doc.signed.json
+npm run gpg2020 -- verify $(pwd)/docs/example/doc.signed.json

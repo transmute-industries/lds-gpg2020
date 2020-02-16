@@ -18,6 +18,30 @@ If you will only ever need to support Ed25519 or only Secp256k1, you should cons
 
 ed25519, secp256k1, rsa, p256, p384, p521
 
+## CLI Usage
+
+Normal
+
+```
+npm i @transmute/lds-gpg2020 -g
+gpg2020 sign -u "3BCAC9A882DEFE703FD52079E9CB06E71794A713" $(pwd)/docs/example/doc.json did:btcr:xxcl-lzpq-q83a-0d5#yubikey
+```
+
+Testing
+
+```
+npm run gpg2020 -- import-gpg-keys-from-json $(pwd)/docs/example/key.json
+
+npm run gpg2020 -- sign -u "20128FAEBF24147175087CC3898C394040B8C4D7" $(pwd)/docs/example/doc.json did:example:123#20128faebf24147175087cc3898c394040b8c4d7 -o $(pwd)/docs/example/doc.signed.json
+
+npm run gpg2020 -- verify $(pwd)/docs/example/doc.signed.json
+
+```
+
+
+
+
+
 
 ### About Linked Data Signatures
 

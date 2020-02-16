@@ -1,3 +1,5 @@
+const jsonld = require("jsonld");
+
 const {
   suites: { LinkedDataSignature }
 } = require("jsonld-signatures");
@@ -90,6 +92,7 @@ class GpgSignature2020 extends LinkedDataSignature {
 
     if (!verifier) {
       const key = await this.LDKeyClass.from(verificationMethod);
+      console.log(key)
       verifier = key.verifier();
     }
     return await verifier.verify({
@@ -99,11 +102,18 @@ class GpgSignature2020 extends LinkedDataSignature {
   }
 
   async assertVerificationMethod({ verificationMethod }) {
-    if (!jsonld.hasValue(verificationMethod, "type", this.requiredKeyType)) {
-      throw new Error(
-        `Invalid key type. Key type must be "${this.requiredKeyType}".`
-      );
+
+    if (jsonld.hasValue(verificationMethod, "type", this.requiredKeyType)) {
+      return true;
     }
+
+    if (jsonld.hasValue(verificationMethod, "type", `https://transmute-industries.github.io/lds-gpg2020/#${this.requiredKeyType}`)) {
+      return true;
+    }
+
+    throw new Error(
+      `Invalid key type.Key type must be "${this.requiredKeyType}".`
+    );
   }
 
   async getVerificationMethod({ proof, documentLoader }) {
