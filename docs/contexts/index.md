@@ -47,7 +47,7 @@ The verification key type for `GpgSignature2020`. The key must have a property `
 ```json
 [
   {
-    "@context": "https://transmute-industries.github.io/lds-gpg2020/contexts/lds-gpg2020-v0.0.jsonld",
+    "@context": "https://gpg.jsld.org/contexts/lds-gpg2020-v0.0.jsonld",
     "id": "did:btcr:xxcl-lzpq-q83a-0d5#20a968a458342f6b1a822c5bfddb584bdf141f95",
     "type": "GpgVerificationKey2020",
     "controller": "did:btcr:xxcl-lzpq-q83a-0d5",
@@ -59,14 +59,14 @@ The verification key type for `GpgSignature2020`. The key must have a property `
 <h4 id="GpgSignature2020"><a href="#GpgSignature2020">GpgSignature2020</a></h4>
 
 A JSON-LD Document has been signed with GpgSignature2020,
-when it contains a proof field with type `GpgSignature2020`. The proof must contain a key `signatureValue` with value defined by the signing algorithm described here.
+when it contains a proof field with type `GpgSignature2020`. The proof must contain a key `signatureValue` with value defined by the signing algorithm described [here](https://tools.ietf.org/html/rfc4880#section-11.4).
 
 #### Example:
 
 ```json
 {
   "@context": [
-    "https://transmute-industries.github.io/lds-gpg2020/contexts/lds-gpg2020-v0.0.jsonld",
+    "https://gpg.jsld.org/contexts/lds-gpg2020-v0.0.jsonld",
     {
       "schema": "http://schema.org/",
       "name": "schema:name",
