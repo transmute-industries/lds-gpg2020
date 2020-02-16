@@ -1,5 +1,9 @@
 # Linked Data Signatures for GPG
 
+
+![Integration Tests](https://github.com/transmute-industries/lds-gpg2020/workflows/Integration%20Tests/badge.svg) [![codecov](https://codecov.io/gh/transmute-industries/lds-gpg2020/branch/master/graph/badge.svg)](https://codecov.io/gh/transmute-industries/lds-gpg2020)
+
+
 [View On Github](https://github.com/transmute-industries/lds-gpg2020)
 
 - [View Linked Data Signature Suite Vocabulary](https://gpg.jsld.org/contexts/)
