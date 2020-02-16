@@ -71,7 +71,7 @@ class GpgSignature2020 extends LinkedDataSignature {
     }
 
     proof[this.proofSignatureKey] = await this.signer.sign({
-      data: Buffer.from(verifyData + "\n")
+      data: Buffer.from(verifyData)
     });
     return proof;
   }
@@ -96,7 +96,7 @@ class GpgSignature2020 extends LinkedDataSignature {
       verifier = key.verifier();
     }
     return await verifier.verify({
-      data: Buffer.from(verifyData + "\n"),
+      data: Buffer.from(verifyData),
       signature: proof[this.proofSignatureKey]
     });
   }

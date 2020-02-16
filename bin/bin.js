@@ -52,7 +52,7 @@ vorpal.command("import-gpg-keys-from-json <inputFilePath>", "imports gpg keys fr
 
   const result = shell.exec(command, { silent: true });
 
-  console.log(result.stdout)
+  // console.log(result.stdout)
 
   return vorpal.wait(1);
 });
@@ -85,7 +85,7 @@ vorpal
     const sign = ({
       data
     }) => {
-      fs.writeFileSync('data.dat', data + '\n');
+      fs.writeFileSync('data.dat', data);
 
       const keyName = args.options["local-user"]
         ? `-u ${args.options["local-user"]}`
@@ -103,7 +103,7 @@ vorpal
       return signatureValue;
     }
 
-    console.log(args)
+    // console.log(args)
 
     const verificationMethod = {
       id: args.verificationMethod,
@@ -194,7 +194,7 @@ vorpal
       purpose: new AssertionProofPurpose(),
       suite
     });
-    console.log(result)
+    // console.log(result)
     console.log(JSON.stringify({ verified: result.verified }, null, 2));
     return vorpal.wait(1);
   });

@@ -211,7 +211,7 @@ function signerFactory(key) {
       }
       const { signature: detachedSignature } = await openpgp.sign({
         message: openpgp.message.fromBinary(
-          Buffer.from(data + "\n")
+          Buffer.from(data)
         ),
         privateKeys: [privateKey],
         detached: true
@@ -245,7 +245,7 @@ verifierFactory = key => {
     async verify({ data, signature }) {
       const { signatures } = await openpgp.verify({
         message: openpgp.message.fromBinary(
-          Buffer.from(data + "\n")
+          Buffer.from(data)
         ),
         signature: await openpgp.signature.readArmored(signature), // parse detached signature
         publicKeys: (await openpgp.key.readArmored(key.publicKeyGpg)).keys // for verification

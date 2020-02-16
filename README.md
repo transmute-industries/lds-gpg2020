@@ -32,8 +32,8 @@ Testing
 ```
 npm run gpg2020 -- import-gpg-keys-from-json $(pwd)/docs/example/key.json
 
-npm run gpg2020 -- sign -u "20128FAEBF24147175087CC3898C394040B8C4D7" $(pwd)/docs/example/doc.json did:example:123#20128faebf24147175087cc3898c394040b8c4d7 -o $(pwd)/docs/example/doc.signed.json
-
+VERIFICATION_METHOD=$(cat $(pwd)/docs/example/key.json | jq '.id')
+npm run gpg2020 -- sign -u "114FAE6216DE45B78A611D22227982B2ECAFBD45" $(pwd)/docs/example/doc.json $VERIFICATION_METHOD -o $(pwd)/docs/example/doc.signed.json
 npm run gpg2020 -- verify $(pwd)/docs/example/doc.signed.json
 
 ```
