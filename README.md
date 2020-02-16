@@ -1,10 +1,10 @@
-# Linked Data Signatures for JWS
+# Linked Data Signatures for GPG
 
 [View On Github](https://github.com/transmute-industries/lds-gpg2020)
 
 ## Security Considerations
 
-You should be aware that some of these curves are not considered safe:
+You should be aware that some of the crypto supported by GPG may not be considered safe:
 
 - https://safecurves.cr.yp.to/
 
@@ -14,18 +14,10 @@ If you will only ever need to support Ed25519 or only Secp256k1, you should cons
 
 - [EcdsaSecp256k1Signature2019](https://github.com/decentralized-identity/lds-ecdsa-secp256k1-2019.js)
 
-## Supported JWS Algs
+## Supported GPG Keys
 
-The expected alg will be determined by the following table.
+ed25519, secp256k1, rsa, p256, p384, p521
 
-| kty | crvOrSize | alg    |
-| --- | --------- | ------ |
-| OKP | Ed25519   | EdDSA  |
-| EC  | secp256k1 | ES256K |
-| RSA | 2048      | PS256  |
-| EC  | P-256     | ES256  |
-
-Anything else will result in an unsupported alg error.
 
 ### About Linked Data Signatures
 
@@ -36,13 +28,13 @@ A JSON-LD Signature has a verification key type, and a signature/proof type for 
 
 This library makes working with Linked Data Signatures trivial for developers familar with JWS.
 
-- [example keystore](./example/didDocJwks.json).
+- [example keystore](./example/didDocGpgKeys.json).
 
 - [example did doc](./example/didDoc.json)
 
 You must provide both a json-ld context, and human readable documentation for every property you create for your signature suite.
 
-In this case, we define these verification key and proof formats, as well as the `publicKeyJwk` property.
+In this case, we define these verification key and proof formats, as well as the `publicKeyGpg` property.
 
 You can read the documentation here:
 
@@ -65,6 +57,6 @@ npm run coverage
 npm run docs
 ```
 
-Built on top of: [https://www.npmjs.com/package/jose](https://www.npmjs.com/package/jose)
+Built on top of: [https://github.com/openpgpjs/openpgpjs](https://github.com/openpgpjs/openpgpjs)
 
 Works with: [https://github.com/digitalbazaar/jsonld-signatures](https://github.com/digitalbazaar/jsonld-signatures)
