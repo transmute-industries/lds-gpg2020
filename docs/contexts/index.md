@@ -4,7 +4,7 @@
 
 You can use this repo as a guide for extending contexts, and ensuring that your JSON-LD is functioning as expected and fully documented. This should help you make the case that your extensions should be included, or eliminate the need for them to be included.
 
-- [Latest JSON-LD Context](./contexts/lds-gpg2020-v0.0.jsonld)
+- [Latest JSON-LD Context](https://gpg.jsld.org/contexts/lds-gpg2020-v0.0.jsonld)
 
 ### Terminology
 
