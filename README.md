@@ -93,14 +93,13 @@ Failure to do so is similar to not maintaining an npm module, or unpublishing a 
 
 Build Form Source:
 
-https://developers.yubico.com/yubico-c/
-https://developers.yubico.com/yubikey-personalization/
+- [yubico-c](https://developers.yubico.com/yubico-c/)
+- [yubikey-personalization](https://developers.yubico.com/yubikey-personalization/)
+- [Resetting a Yubikey](https://support.yubico.com/support/solutions/articles/15000006421-resetting-the-openpgp-applet-on-the-yubikey)
 
 Connect Yubikey
 
-See [Generating a key on yubikey](https://support.yubico.com/support/solutions/articles/15000006420-using-your-yubikey-with-openpgp#Generating_Your_PGP_Key_Directly_on_Your_YubiKeyttvb3m
-
-)
+See [Generating a key on yubikey](https://support.yubico.com/support/solutions/articles/15000006420-using-your-yubikey-with-openpgp#Generating_Your_PGP_Key_Directly_on_Your_YubiKeyttvb3m)
 
 ```
 gpg-connect-agent --hex "scd apdu 00 f1 00 00" /bye
